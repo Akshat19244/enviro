@@ -1,17 +1,17 @@
 import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "@/components/ui/toaster";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { ThemeProvider } from "@/components/ThemeProvider";
-import { Navbar } from "@/components/Navbar";
-import Home from "@/pages/Home";
-import Dashboard from "@/pages/Dashboard";
-import AIPlanner from "@/pages/AIPlanner";
-import Community from "@/pages/Community";
-import Policy from "@/pages/Policy";
-import About from "@/pages/About";
-import NotFound from "@/pages/not-found";
+import { Toaster } from "./components/ui/toaster";
+import { TooltipProvider } from "./components/ui/tooltip";
+import { ThemeProvider } from "./components/ThemeProvider";
+import { Navbar } from "./components/Navbar";
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import AIPlanner from "./pages/AIPlanner";
+import Community from "./pages/Community";
+import Policy from "./pages/Policy";
+import About from "./pages/About";
+import NotFound from "./pages/not-found";
 
 function Router() {
   return (
